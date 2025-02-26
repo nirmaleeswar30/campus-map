@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Switch, Text, StyleSheet } from 'react-native';
-import { useTheme } from './App';
+import { useTheme } from '../app/(tabs)/index';
 
 const ThemeToggle = () => {
   const { theme, setTheme } = useTheme();

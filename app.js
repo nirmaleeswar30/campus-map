@@ -2,7 +2,7 @@ import React, { useState, useEffect, createContext, useContext } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Appearance, useColorScheme } from 'react-native-appearance';
-import HomeScreen from './screens/Homescreen';
+import HomeScreen from './screens/HomeScreen';
 import MapScreen from './screens/MapScreen';
 
 const Stack = createStackNavigator();
